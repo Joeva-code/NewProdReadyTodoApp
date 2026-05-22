@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
-const todoRoutes = require('./routes/todoRoutes');
+const todoRoutes = require('./routes/todoRoutes.js');
 const { errorHandler, notFound } = require('./middleware/errorHandler.js');
 const logger = require('./utils/logger.js');
 
