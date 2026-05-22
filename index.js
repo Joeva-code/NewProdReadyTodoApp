@@ -5,8 +5,8 @@ const path = require('path');
 dotenv.config({ path: path.join(__dirname, '.env') });
 
 const app = require('./Src/app.js');
-const { initDatabase, pool } = require('./src/config/database');
-const logger = require('./src/utils/logger');
+const { initDatabase, pool } = require('./Src/config/database.js');
+const logger = require('./Src/utils/logger.js');
 
 const PORT = process.env.PORT || 3000;
 let server;
