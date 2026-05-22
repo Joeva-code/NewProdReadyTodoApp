@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-const logger = require('../utils/logger');
+const logger = require('../utils/logger.js');
 
 const pool = new Pool({
   host: process.env.DB_HOST,

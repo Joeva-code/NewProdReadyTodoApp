@@ -1,6 +1,6 @@
-const Todo = require('../models/Todo');
-const { AppError } = require('../middleware/errorHandler');
-const logger = require('../utils/logger');
+const Todo = require('../models/Todo.js');
+const { AppError } = require('../middleware/errorHandler.js');
+const logger = require('../utils/logger.js');
 
 const todoController = {
   async createTodo(req, res, next) {

@@ -1,4 +1,4 @@
-const logger = require('../utils/logger');
+const logger = require('../utils/logger.js');
 
 class AppError extends Error {
   constructor(statusCode, message, isOperational = true) {

@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const todoController = require('../controllers/todoController');
-const validation = require('../middleware/validation');
-const authMiddleware = require('../middleware/auth');
+const todoController = require('../controllers/todoController.js');
+const validation = require('../middleware/validation.js');
+const authMiddleware = require('../middleware/auth.js');
 
 // Apply auth middleware to all todo routes
 router.use(authMiddleware);

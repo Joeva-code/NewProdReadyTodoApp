@@ -1,5 +1,5 @@
-const { pool } = require('../config/database');
-const logger = require('../utils/logger');
+const { pool } = require('../config/database.js');
+const logger = require('../utils/logger.js');
 
 class Todo {
   static async create(todoData) {
